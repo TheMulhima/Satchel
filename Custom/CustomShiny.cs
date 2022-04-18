@@ -1,3 +1,5 @@
+using Satchel.Futils;
+
 namespace Satchel
 {
     public class CustomShiny {
