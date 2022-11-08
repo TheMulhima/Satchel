@@ -138,7 +138,7 @@ public static class Utils
         
         // Animator
         var cursorAnimator = cursor.AddComponent<Animator>();
-        cursorAnimator.runtimeAnimatorController = MenuResources.MenuButtonFlashAnimator;
+        cursorAnimator.runtimeAnimatorController = MenuResources.MenuCursorAnimator;
         cursorAnimator.updateMode = AnimatorUpdateMode.UnscaledTime;
         cursorAnimator.applyRootMotion = false;
         // Image
