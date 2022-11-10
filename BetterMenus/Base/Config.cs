@@ -26,7 +26,7 @@ public struct InputFieldConfig
     {
         fontSize = 46,
         inputBoxWidth = 300f,
-        contentType = UnityEngine.UI.InputField.ContentType.Alphanumeric
+        contentType = UnityEngine.UI.InputField.ContentType.Standard
     };
     
     /// <summary>
@@ -35,18 +35,8 @@ public struct InputFieldConfig
     public static readonly InputFieldConfig DefaultWholeNumber = new InputFieldConfig()
     {
         fontSize = 46,
-        inputBoxWidth = 180f,
+        inputBoxWidth = 150f,
         contentType = UnityEngine.UI.InputField.ContentType.IntegerNumber
-    };
-    
-    /// <summary>
-    /// the default config for floats
-    /// </summary>
-    public static readonly InputFieldConfig DefaultFloatNumber = new InputFieldConfig()
-    {
-        fontSize = 46,
-        inputBoxWidth = 240f,
-        contentType = UnityEngine.UI.InputField.ContentType.DecimalNumber
     };
 }
 

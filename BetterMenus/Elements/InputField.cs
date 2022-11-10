@@ -75,7 +75,7 @@ public class InputField : Element
         return currentField;
     }
 
-    /// <inheritdoc cref="Element.Create"/>
+    /// <inheritdoc/>
     public override GameObjectRow Create(ContentArea c, Menu Instance, bool AddToList = true)
     {
         _ = Name ?? throw new ArgumentNullException(nameof(Name), "Name cannot be null");
@@ -107,7 +107,7 @@ public class InputField : Element
     }
     
 
-    /// <inheritdoc cref="Element.Update"/>
+    /// <inheritdoc />
     public override void Update()
     {
         placeholderText.text = placeholder;
