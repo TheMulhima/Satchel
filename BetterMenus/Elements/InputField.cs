@@ -2,7 +2,7 @@
 using Modding.Menu.Config;
 using UnityEngine.UI;
 
-namespace Satchel.BetterMenus.Elements;
+namespace Satchel.BetterMenus;
 
 public class InputField : Element
 {
