@@ -41,7 +41,7 @@ namespace Satchel
             }
         }
         static Core(){
-            Satchel.Instance.Log(AssemblyUtils.Version());
+            Modding.Logger.Log(AssemblyUtils.Version());
             LoadShaders();
         }
 
