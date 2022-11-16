@@ -110,7 +110,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BetterMenus\Elements\InputField.cs" />
-    <Compile Include="Futils\FSMEditData.cs" />
+    <Compile Include="Futils\FSMData.cs" />
     <Compile Include="Futils\FsmStateHooks.cs" />
     <Compile Include="GlobalUsings.cs" />
     <Compile Include="Mod.cs" />

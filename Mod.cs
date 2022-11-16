@@ -15,8 +15,8 @@ namespace Satchel
                 Instance = this;
             }
             
-            FsmStateHooks.StateEnteredFromTransition(new FSMData("ProxyFSM", "Flower?"), trans => Log($"flower entered from {trans}"));
-            FsmStateHooks.StateExitedViaTransition(new FSMData("ProxyFSM", "Idle"), trans => Log($"idle exited from {trans}"));
+            FsmStateHooks.HookStateEnteredFromTransition(new FSMData("ProxyFSM", "Flower?"), (fsm, trans) => Log($"Flower entered from {trans}"));
+            //FsmStateHooks.HookStateExitedViaTransition(new FSMData("ProxyFSM", "Flower?"), (fsm, trans) => Log($"Flower exited from {trans}"));
         }
     }
 }
